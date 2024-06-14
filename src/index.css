@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  min-height: 100vh;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+@layer components{
+  .center{
+    @apply flex justify-center items-center 
+  }
+  .screen-size{
+    @apply max-w-screen-2xl w-[95%] mx-auto 
+  }
+  .para{
+    @apply text-2xl font-normal
+  }
+  .title{
+    @apply text-[40px] font-medium
+  }
+  .subtitle{
+    @apply text-4xl font-normal
+  }
+  .content{
+    @apply text-xl font-normal
+  }
+  .hint{
+    @apply text-lg font-medium
+  }
+  .buthint{
+    @apply text-base font-normal
+  }
+  .mini{
+    @apply text-sm font-medium
+  }
+  .scroll1 {
+    @apply overflow-x-auto  whitespace-nowrap scroll-smooth ;
+  }
+  .footer-bg {
+    background-image: url(./assets/home/home-box/Bottom-image.jpg);
+    @apply bg-cover bg-no-repeat bg-center;
+  }
+  /* .hso-bg{
+    background-image: url("./assets/Home/HSO/hsoBackground.jpg");
+    @apply bg-cover bg-no-repeat w-full h-full 
+  } */
+  /* .text-sm:	14px
+  .text-base: 	16px
+  .text-lg:	    18px
+  .text-xl:	    20px
+  .text-2xl:   	24px
+  .text-3xl:   	30px
+  .text-4xl:	  36px
+  text-6xl:     60px
+      text-[40px]      */
+ 
+}
+.hufgefv{
+  color:#367d7f
+
+
+}
